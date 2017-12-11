@@ -2,7 +2,7 @@
 //  Convert.swift
 //  CryptoCom
 //
-//  Created by Binshad on 07/11/17.
+//  Created by Pm_Abi on 07/11/17.
 //  Copyright © 2017 GCSConsulting. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  Data.swift
 //  CryptoCom
 //
-//  Created by Binshad on 30/10/17.
+//  Created by Pm_Abi on 30/10/17.
 //  Copyright © 2017 GCSConsulting. All rights reserved.
 //
 
@@ -17,6 +17,7 @@ extension Data{
         }else{
             return nil
         }
+        
     }
 }
 
