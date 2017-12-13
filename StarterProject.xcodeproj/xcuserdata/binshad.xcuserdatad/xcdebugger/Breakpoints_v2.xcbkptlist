@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StarterProject/ImageView.swift"
+            timestampString = "532523330.066763"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "downloadImageFromURl(urlString:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in StarterProject):__ObjC.UIImageView.downloadImageFromURl (urlString : Swift.String, completion : ((extension in StarterProject):__ObjC.UIImageView.ImageViewDownloadresult) -&gt; ()) -&gt; ()"
+                  moduleName = "StarterProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/binshad/Documents/GitDump/StarterProject/StarterProject/ImageView.swift"
+                  timestampString = "534085136.085405"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in StarterProject):__ObjC.UIImageView.(downloadImageFromURl (urlString : Swift.String, completion : ((extension in StarterProject):__ObjC.UIImageView.ImageViewDownloadresult) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "StarterProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/binshad/Documents/GitDump/StarterProject/StarterProject/ImageView.swift"
+                  timestampString = "534085136.087751"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StarterProject/PMToast.swift"
+            timestampString = "533205372.420385"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "normalSnackBar(in:withText:autoHide:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
