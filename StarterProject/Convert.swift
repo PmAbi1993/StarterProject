@@ -8,7 +8,7 @@
 
 import Foundation
 
-typealias JSON = [String : String]
+typealias JSON = [String : Any]
 
 class Convert {
 

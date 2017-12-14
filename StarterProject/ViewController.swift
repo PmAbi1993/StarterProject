@@ -16,15 +16,6 @@ class ViewController: UIViewController {
 
         
         
-       
-        let frame = CGRect(x: 0, y: 50, width: view.frame.width, height: 50)
-        let slider = PMSliderDistributable(frame: frame)
-        slider.makeBlockBars = true
-        slider.barheight = 10
-        view.addSubview(slider)
-        
-        
-        
     }
     
 }

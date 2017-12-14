@@ -18,6 +18,7 @@
 		8D52D1961FD524EB0051960A /* PMSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D52D1951FD524EB0051960A /* PMSlider.swift */; };
 		8D5813D61FD6607B00CEFAF0 /* ApiFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5813D51FD6607B00CEFAF0 /* ApiFunctions.swift */; };
 		8D5813D81FD6608B00CEFAF0 /* FCM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5813D71FD6608B00CEFAF0 /* FCM.swift */; };
+		8DBE695F1FE24ED700B0F5F5 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBE695E1FE24ED700B0F5F5 /* String.swift */; };
 		8DD8D3FA1FBEA90A000D27A5 /* PmImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8D3F91FBEA90A000D27A5 /* PmImageView.swift */; };
 		8DDC7E871FBC077200395D67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDC7E861FBC077200395D67 /* AppDelegate.swift */; };
 		8DDC7E891FBC077200395D67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDC7E881FBC077200395D67 /* ViewController.swift */; };
@@ -47,6 +48,7 @@
 		8D52D1951FD524EB0051960A /* PMSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMSlider.swift; sourceTree = "<group>"; };
 		8D5813D51FD6607B00CEFAF0 /* ApiFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiFunctions.swift; sourceTree = "<group>"; };
 		8D5813D71FD6608B00CEFAF0 /* FCM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCM.swift; sourceTree = "<group>"; };
+		8DBE695E1FE24ED700B0F5F5 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		8DD8D3F91FBEA90A000D27A5 /* PmImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmImageView.swift; sourceTree = "<group>"; };
 		8DDC7E831FBC077200395D67 /* StarterProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarterProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DDC7E861FBC077200395D67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 				8D1BB8BD1FD56A2900A3F482 /* Image.swift */,
 				8D3BE6DC1FC800FE001233D3 /* Colors.swift */,
 				8DFC0C341FCE775A002ADF48 /* UIView.swift */,
+				8DBE695E1FE24ED700B0F5F5 /* String.swift */,
 			);
 			name = "Default Extesnions";
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				8D1BB8BE1FD56A2900A3F482 /* Image.swift in Sources */,
 				8D3BE6DD1FC800FE001233D3 /* Colors.swift in Sources */,
 				8DDC7EAF1FBC19E100395D67 /* ImageView.swift in Sources */,
+				8DBE695F1FE24ED700B0F5F5 /* String.swift in Sources */,
 				8D52D1961FD524EB0051960A /* PMSlider.swift in Sources */,
 				8DDC7E891FBC077200395D67 /* ViewController.swift in Sources */,
 				8DD8D3FA1FBEA90A000D27A5 /* PmImageView.swift in Sources */,
