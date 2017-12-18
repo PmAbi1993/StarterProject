@@ -11,6 +11,10 @@ import UIKit
 
 
 extension UIColor {
+    
+    /**
+        This will init the hex value to a UIColor instantly
+     */
     convenience init(initWithHexString hexString: String) {
         let hex = hexString.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
         var int = UInt32()

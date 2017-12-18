@@ -20,8 +20,6 @@ extension UIImageView{
         case responseError = "The resposne produced Error"
         case imageConversionError = "The data Conversion Failed. Please check type of file in urlPath"
         case dataConversionError = "The Image COnversion Failed. Please check type of file in urlPath"
-
-
     }
 
     /* Ensure this method is not used in reUsable components like tableView collectionView etc */

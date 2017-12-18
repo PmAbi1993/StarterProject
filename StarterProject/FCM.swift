@@ -11,9 +11,6 @@ import Foundation
 
 class FCM {
     
- 
-    
-    
     func sendTestPushNotification(to: String){
     
     

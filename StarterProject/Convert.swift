@@ -12,29 +12,32 @@ typealias JSON = [String : Any]
 
 class Convert {
 
-
     static let from = Convert()
+
+    /**
+            Converts a JSON : [String : Any] to data format in one step. Should check for nil options too
+     */
     
-    func stringArrayToJsonData(array: [String : Any]) -> Data?{
+    func stringArrayToJsonData(array: JSON) -> Data?{
     
         var json : Data?
-    
         do{
-        
             let jsonData = try JSONSerialization.data(withJSONObject: array, options: .prettyPrinted)
             json = jsonData
             
         }catch{
             print(error.localizedDescription)
-            
         }
         return json
     }
     
-    func jsonDataToStringArray(JsonData : Data) -> JSON?{
     
+    
+    /**
+     Converts a JSONData to -> [String : Any] . Check for chances to nil too
+     */
+    func jsonDataToStringArray(JsonData : Data) -> JSON?{
         var array : JSON?
-        
         do{
            if let json = try JSONSerialization.jsonObject(with: JsonData, options: .allowFragments) as? JSON{
                 array = json
@@ -45,9 +48,12 @@ class Convert {
         }catch{
             print(error.localizedDescription)
         }
-        
         return array
     }
+    
+    /**
+     Converts a JSONData to -> [JSON] . Check for chances to nil too
+     */
     
     func jsonDataToStringArrayOfArray(JsonData : Data) -> [JSON]?{
         

@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+
+
+class TestApi {
+    
+    static let with = TestApi()
+    
+}

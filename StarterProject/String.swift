@@ -9,6 +9,10 @@
 import Foundation
 
 extension String {
+    
+    /**
+        Removes the whole whitespaces withing the provided string
+     */
     func pm_removingWhitespaces() -> String {
         return components(separatedBy: .whitespaces).joined()
     }

@@ -13,7 +13,9 @@ import UIKit
 extension UIView{
 
     
-    
+    /**
+     Makes the current view a model for flat card design
+     */
     func makeViewAsDefaultcard(){
     
         layer.cornerRadius = 3
